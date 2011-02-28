@@ -1,0 +1,7 @@
+#content
+  %h1 Enter your Address
+  = form_tag '/maps/submit_address', :remote => true
+  Address
+  %br
+  = text_field_tag :address
+  = submit_tag "Submit"
